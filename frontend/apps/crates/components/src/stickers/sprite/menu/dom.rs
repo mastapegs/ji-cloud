@@ -83,6 +83,10 @@ pub fn render_sticker_sprite_menu<T: AsSticker>(
                     }
                 }))
             }),
+            html!("hr"),
+            html!("div", {
+                .text("Animations")
+            }),
         ])
     })
 }
